@@ -1,5 +1,5 @@
 <template>
-  
+  <div>随便提交点啥</div>
 </template>
 
 <script>
