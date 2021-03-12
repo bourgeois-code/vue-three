@@ -1,19 +1,16 @@
 <template>
   <div class="home">
-    <!-- <HelloWorld/> -->
-    <SingleLine/>
+    <clear-rect></clear-rect>
   </div>
 </template>
 
 <script>
-// import HelloWorld from '@/components/HelloWorld.vue'
-import SingleLine from '@/components/SingleLine.vue'
+import ClearRect from '@/components/clearRect.vue'
 
 export default {
   name: 'Home',
   components: {
-    // HelloWorld
-    SingleLine
+    ClearRect
   }
 }
 </script>
