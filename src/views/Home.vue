@@ -1,16 +1,16 @@
 <template>
   <div class="home">
-    <clear-rect></clear-rect>
+    <hello-point1></hello-point1>
   </div>
 </template>
 
 <script>
-import ClearRect from '@/components/clearRect.vue'
+import HelloPoint1 from '@/components/helloPoint1.vue'
 
 export default {
   name: 'Home',
   components: {
-    ClearRect
+    HelloPoint1
   }
 }
 </script>
