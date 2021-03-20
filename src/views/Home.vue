@@ -1,16 +1,16 @@
 <template>
   <div class="home">
-    <hello-point1></hello-point1>
+    <hello-point2></hello-point2>
   </div>
 </template>
 
 <script>
-import HelloPoint1 from '@/components/helloPoint1.vue'
+import HelloPoint2 from '@/components/helloPoint2.vue'
 
 export default {
   name: 'Home',
   components: {
-    HelloPoint1
+    HelloPoint2
   }
 }
 </script>
